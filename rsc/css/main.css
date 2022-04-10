@@ -107,6 +107,27 @@
     border-style: inset;
 }
 
+.section-oficinas__container{
+    display:inline-block;
+    max-width: var(--container-max-width);
+    border-radius: 1rem;
+}
+
+.section-oficinas-table{
+    padding: 0.5rem 0.5rem;
+    border-color: cadetblue;
+    border-style: groove;
+}
+
+.section-oficinas-table-header{
+    color: var(--text-color);
+    background-color: var(--header-background-color-secondary);
+}
+
+.section-oficinas-table-row{
+    color: var(--text-color);
+    background-color: var(--primary-highlight);
+}
 
 @media (min-width:800px) {
         .body{
